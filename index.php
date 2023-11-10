@@ -18,7 +18,7 @@
 
   <!-- Include CSS Styles from this theme -->
   <link rel="preload" href="<?php echo HTML_PATH_THEME ?>assets/css/all.min.css?version=3.15.0" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <?php echo Theme::css('assets/css/all.min.css'); ?>
+  <?php echo Theme::css('assets/css/style.css'); ?>
 
   <!-- Load Bludit Plugins: Site head -->
   <?php Theme::plugins('siteHead'); ?>

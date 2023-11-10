@@ -93,8 +93,8 @@
 
   <?php include(THEME_DIR_PHP . 'footer.php'); ?>
 
-  <script src="assets/js/menu.min.js" async></script>
-  <script src="assets/js/a11y.min.js" async></script>
+  <script src="bl-themes/andy-enhanced/assets/js/menu.min.js" async></script>
+  <script src="bl-themes/andy-enhanced/assets/js/a11y.min.js" async></script>
   <?php
    // echo Theme::js('assets/js/menu.min.js');
    // echo Theme::js('assets/js/a11y.min.js');

@@ -4,7 +4,8 @@
       <div class="copyright-bar">
         <span class="copyright">
           <?php echo $site->footer(); ?>
-        </div>
-    </div>
+        </span>  
+      </div>
+   </div>
   </footer>
 </div>

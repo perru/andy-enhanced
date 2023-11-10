@@ -38,12 +38,12 @@
     <header id="masthead" class="site-header">
       <div class="inside-header grid-container grid-parent">
         <div class="site-branding">
-          <h1 class="main-title" itemprop="headline">
+          <h1 class="main-title">
             <a href="<?php echo $site->url() ?>" rel="home">
               <?php echo $site->title() ?>
             </a>
           </h1>
-          <p class="site-description" itemprop="description">
+          <p class="site-description">
             <?php echo $site->slogan() ?>
           </p>
         </div>
@@ -94,8 +94,8 @@
 
   <?php include(THEME_DIR_PHP . 'footer.php'); ?>
 
-  <script src="/bl-themes/andy-enhanced/assets/js/menu.min.js?version=3.15.0" async="true"></script>
-  <script src="/bl-themes/andy-enhanced/assets/js/a11y.min.js?version=3.15.0" async="true"></script>
+  <script src="/bl-themes/andy-enhanced/assets/js/menu.min.js?version=3.15.0" async></script>
+  <script src="/bl-themes/andy-enhanced/assets/js/a11y.min.js?version=3.15.0" async></script>
   <?php
    // echo Theme::js('assets/js/menu.min.js');
    // echo Theme::js('assets/js/a11y.min.js');

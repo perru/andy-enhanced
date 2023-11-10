@@ -56,7 +56,8 @@
     <!-- ---------------------- -->
 
 
-    <div id="page" class="hfeed site grid-container container grid-parent">        
+    <div id="page" class="hfeed site grid-container container grid-parent">
+      <div id="content" class="site-content">
         <?php
         // Bludit content are pages
         // But if you order the content by date
@@ -79,6 +80,8 @@
           </div>
         </div>
         <!-- ---------------------- -->
+
+      </div><!-- #content -->
 
     </div><!-- #page --> 
     

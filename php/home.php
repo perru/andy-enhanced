@@ -1,5 +1,4 @@
-<div id="content" class="site-content">
-  <div id="primary" class="content-area grid-parent mobile-grid-100 grid-80 tablet-grid-80">
+<div id="primary" class="content-area grid-parent mobile-grid-100 grid-80 tablet-grid-80">
     <main id="main" class="site-main">
 
     <?php if (empty($content)) : ?>
@@ -155,4 +154,3 @@
     </main>
     <!-- #main -->
   </div>
-</div>

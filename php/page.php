@@ -1,5 +1,4 @@
 <div id="primary" class="content-area grid-parent mobile-grid-100 grid-80 tablet-grid-80">
-  <div id="content" class="site-content">
     <main id="main" class="site-main">
       <article id="post-<?php echo $page->key(); ?>" class="post-<?php echo $page->key(); ?> post type-post status-publish format-standard hentry category-1" itemtype="https://schema.org/CreativeWork" itemscope>
         <div class="inside-article">
@@ -49,5 +48,3 @@
       <!-- #post-## -->
     </main>
     <!-- #main -->
-  </div>
-</div>

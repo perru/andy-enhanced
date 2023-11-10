@@ -57,9 +57,7 @@
     <!-- ---------------------- -->
 
 
-    <div id="page" class="hfeed site grid-container container grid-parent">
-      <div id="content" class="site-content">
-        
+    <div id="page" class="hfeed site grid-container container grid-parent">        
         <?php
         // Bludit content are pages
         // But if you order the content by date
@@ -69,9 +67,16 @@
         // If the user is watching a particular page/post the variable takes the value "page"
         // If the user is watching the frontpage the variable takes the value "home"
         if ($WHERE_AM_I == 'page') {
+        ?>
+        <div id="primary" class="content-area grid-parent mobile-grid-100 grid-80 tablet-grid-80">
+        <div id="content" class="site-content">
+        <?php
           include(THEME_DIR_PHP . 'page.php');
         } else {
-          include(THEME_DIR_PHP . 'home.php');
+        ?>
+        <div id="content" class="site-content">
+        <?php 
+         include(THEME_DIR_PHP . 'home.php');
         }
         ?>
 

@@ -17,8 +17,7 @@
   <?php echo Theme::favicon('assets/img/favicon.png'); ?>
 
   <!-- Include CSS Styles from this theme -->
-  <?php /* echo Theme::css('assets/css/all.min.css'); */ ?>
-  <link rel="preload" href="/bl-themes/andy-enhanced/assets/css/all.min.css?version=3.15.0" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <?php echo Theme::css('assets/css/all.min.css');  ?>
   <?php echo Theme::css('assets/css/style.css'); ?>
 
   <!-- Load Bludit Plugins: Site head -->

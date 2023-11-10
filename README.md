@@ -13,7 +13,7 @@ Fork from : https://github.com/elpak/bludit-themes
 Everything from Andy plus :
 
 ### BETTER PAGINATOR
-Borred about "Previous/Next" link for paginator ? Now real buttons with pretty pagination.
+Borred about "Previous/Next" link for paginator ? Now real dynamics buttons with pretty pagination.
 
 ### USE ALL SCREEN SPACE
 Why loosing screen space ? Just use everything usable.

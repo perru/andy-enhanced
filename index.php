@@ -66,15 +66,8 @@
         // If the user is watching a particular page/post the variable takes the value "page"
         // If the user is watching the frontpage the variable takes the value "home"
         if ($WHERE_AM_I == 'page') {
-        ?>
-        <div id="primary" class="content-area grid-parent mobile-grid-100 grid-80 tablet-grid-80">
-        <div id="content" class="site-content">
-        <?php
           include(THEME_DIR_PHP . 'page.php');
         } else {
-        ?>
-        <div id="content" class="site-content">
-        <?php 
          include(THEME_DIR_PHP . 'home.php');
         }
         ?>
@@ -86,8 +79,6 @@
           </div>
         </div>
         <!-- ---------------------- -->
-
-      </div><!-- #content -->
 
     </div><!-- #page --> 
     

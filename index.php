@@ -18,7 +18,7 @@
 
   <!-- Include CSS Styles from this theme -->
   <?php /* echo Theme::css('assets/css/all.min.css'); */ ?>
-  <link rel="preload" href="/bl-themes/andy/assets/css/all.min.css?version=3.15.0" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/bl-themes/andy-enhanced/assets/css/all.min.css?version=3.15.0" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <?php echo Theme::css('assets/css/style.css'); ?>
 
   <!-- Load Bludit Plugins: Site head -->
@@ -94,8 +94,8 @@
 
   <?php include(THEME_DIR_PHP . 'footer.php'); ?>
 
-  <script src="/bl-themes/andy/assets/js/menu.min.js?version=3.15.0" async="true"></script>
-  <script src="/bl-themes/andy/assets/js/a11y.min.js?version=3.15.0" async="true"></script>
+  <script src="/bl-themes/andy-enhanced/assets/js/menu.min.js?version=3.15.0" async="true"></script>
+  <script src="/bl-themes/andy-enhanced/assets/js/a11y.min.js?version=3.15.0" async="true"></script>
   <?php
    // echo Theme::js('assets/js/menu.min.js');
    // echo Theme::js('assets/js/a11y.min.js');

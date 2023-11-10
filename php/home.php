@@ -98,29 +98,25 @@
           
       <?php if ($getPage >= 3) { ?>
       <li class="list-group-item">
-        <a class="btn" href="<?php echo parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH); ?>
-  ?page=<?php echo $getPage - 2; ?>"><?php echo $getPage - 2; ?></a>
+        <a class="btn" href="<?php echo parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH); ?>?page=<?php echo $getPage - 2; ?>"><?php echo $getPage - 2; ?></a>
       </li>
       <?php } ?>
           
       <?php if ($getPage >= 2) { ?>
       <li class="list-group-item">
-        <a class="btn" href="<?php echo parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH); ?>
-  ?page=<?php echo $getPage - 1; ?>"><?php echo $getPage - 1; ?></a>
+        <a class="btn" href="<?php echo parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH); ?>?page=<?php echo $getPage - 1; ?>"><?php echo $getPage - 1; ?></a>
       </li>
       <?php } ?>
           
       <?php if ($getPage) { ?>
       <li class="list-group-item">
-        <a class="btn btn-selected" href="<?php echo parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH); ?>
-  ?page=<?php echo $getPage; ?>"><?php echo $getPage; ?></a>
+        <a class="btn btn-selected" href="<?php echo parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH); ?>?page=<?php echo $getPage; ?>"><?php echo $getPage; ?></a>
       </li>
       <?php } ?>
          
       <?php if (Paginator::numberOfPages()-1 >= $getPage) { ?>
       <li class="list-group-item">
-        <a class="btn" href="<?php echo parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH); ?>
-  ?page=<?php echo $getPage + 1; ?>"><?php echo $getPage + 1; ?></a>
+        <a class="btn" href="<?php echo parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH); ?>?page=<?php echo $getPage + 1; ?>"><?php echo $getPage + 1; ?></a>
       </li>
           
       <?php } ?>

@@ -17,8 +17,8 @@
   <?php echo Theme::favicon('assets/img/favicon.png'); ?>
 
   <!-- Include CSS Styles from this theme -->
-  <link rel="preload" href="assets/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="assets/css/all.min.css"></noscript>
+  <link rel="preload" href="bl-themes/andy-enhanced/assets/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="bl-themes/andy-enhanced/assets/css/all.min.css"></noscript>
   <?php echo Theme::css('assets/css/style.css'); ?>
 
   <!-- Load Bludit Plugins: Site head -->

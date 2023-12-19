@@ -33,6 +33,16 @@
             </li>
           <?php endforeach; ?>
           </ul>
+
+      <!-- Light/Dark switch -->
+       <ul class="menu sf-menu">
+          <div class="toggle-switch">
+            <label>
+                <input type="checkbox" class="light-dark-switch">
+                <span class="slider"></span>
+            </label>
+          </div>
+        </ul>
       
     </div>
   </div>

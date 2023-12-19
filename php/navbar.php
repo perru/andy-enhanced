@@ -37,7 +37,7 @@
       <!-- Light/Dark switch -->
        <ul class="menu sf-menu">
           <div class="toggle-switch">
-            <label>
+            <label class="light-dark-label">
                 <input type="checkbox" class="light-dark-switch">
                 <span class="slider"></span>
             </label>

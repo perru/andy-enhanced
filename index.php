@@ -35,7 +35,7 @@
 
     <!-- header -->
     <header id="masthead" class="site-header">
-      <div class="inside-header grid-container grid-parent mobile-grid-100 grid-95 tablet-grid-95">
+      <div class="inside-header grid-container grid-parent mobile-grid-100 grid-85 tablet-grid-85">
         <div class="site-branding">
           <h1 class="main-title">
             <a href="<?php echo $site->url() ?>" rel="home">
@@ -49,7 +49,7 @@
       </div>
 
         <!-- Light/Dark switch -->
-       <div class="inside-header grid-container grid-parent mobile-grid-100 grid-5 tablet-grid-5">
+       <div class="switch-header grid-container grid-parent mobile-grid-100 grid-15 tablet-grid-15">
           <div class="toggle-switch">
             <label class="light-dark-label">
                 <input type="checkbox" class="light-dark-switch">

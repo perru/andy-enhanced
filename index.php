@@ -104,6 +104,7 @@
 
   <script src="<?php echo HTML_PATH_THEME ?>assets/js/menu.min.js" async></script>
   <script src="<?php echo HTML_PATH_THEME ?>assets/js/a11y.min.js" async></script>
+  <script src="<?php echo HTML_PATH_THEME ?>assets/js/darkmode.min.js" async></script>
 
 </body>
 </html>

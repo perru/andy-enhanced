@@ -52,7 +52,7 @@
        <div class="switch-header grid-container grid-parent mobile-grid-100 grid-10 tablet-grid-10">
           <div class="toggle-switch">
             <label class="light-dark-label">
-                <input type="checkbox" class="light-dark-switch">
+                <input type="checkbox" class="light-dark-switch" onClick="toggleColorScheme();">
                 <span class="slider"></span>
             </label>
           </div>

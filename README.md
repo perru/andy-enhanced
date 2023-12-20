@@ -12,6 +12,9 @@ Fork from : https://github.com/elpak/bludit-themes
 
 Everything from Andy plus :
 
+### DARK MODE
+Detect user mode and remember his preference without cookie + add switch selector.
+
 ### BETTER PAGINATOR
 Borred about "Previous/Next" link for paginator ? Now real dynamics buttons with pretty pagination.
 

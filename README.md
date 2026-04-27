@@ -24,5 +24,8 @@ Why loosing screen space ? Just use everything usable.
 ### FASTER CSS & JS LOADING
 With using async & IA optimizations.
 
+### LIGHTER PACKAGE WITH MORE FEATURES
+With extreme minification and optimizations.
+
 ### BETTER W3C COMPLIANCE
 Not perfect but better than the original (unique id are unique, better syntaxes, some cleaning...).
